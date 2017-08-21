@@ -9,6 +9,16 @@ function frameIt() {
     $(this).addClass('tasty');
   })
 }
+function pressIt() {
+  $('form').on('keydown', function(key) {
+    if (key.which === '71') {
+      alert();
+    }
+  }) 
+}
+function submitIt() {
+  $('')
+}
 
 $(document).ready(function(){
 
